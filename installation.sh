@@ -86,7 +86,14 @@ gsettings set org.gnome.shell.extensions.dash-to-dock show-show-apps-button fals
 echo "Wallpaper"
 gsettings set org.gnome.desktop.background picture-uri file://arctic-landscape.png
 
+echo "U Launcher Nord Theme"
+git clone https://github.com/dhananjay/ulauncher-nord/ \
+  ~/.config/ulauncher/user-themes/nord
+
+
 # Backup
 sudo timeshift --create --comments "All SET" --tags O
+
+
 
 
