@@ -15,7 +15,7 @@ sudo apt install software-properties-common apt-transport-https wget
 wget –q https://packages.microsoft.com/key/microsoft.asc -O- | sudo apt-key add -
 sudo add-apt-repository “deb[arch=amd64] https://packages.microsoft.com/repos/vscode stable main”
 
-
+sudo add-apt-repository ppa:apt-fast/stable
 
 # Updating PPA & Upgrading Applications
 sudo apt-get update && sudo apt-get upgrade
@@ -28,6 +28,10 @@ sudo apt install gnome-tweaks
 
 echo "Edge Browser"
 sudo apt-get install microsoft-edge-stable
+
+echo "Preload and apt-fast"
+sudo apt-get install preload
+sudo apt-get install apt-fast
 
 echo "Microsoft Teams"
 sudo apt-get install teams
