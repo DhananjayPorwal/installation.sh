@@ -86,6 +86,7 @@ gsettings set org.gnome.shell.extensions.dash-to-dock dock-position BOTTOM
 gsettings set org.gnome.shell.extensions.dash-to-dock transparency-mode FIXED
 gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 42
 gsettings set org.gnome.shell.extensions.dash-to-dock show-show-apps-button false
+gsettings set org.gnome.nautilus.preferences use-experimental-views false
 
 echo "Wallpaper"
 gsettings set org.gnome.desktop.background picture-uri file://arctic-landscape.png
